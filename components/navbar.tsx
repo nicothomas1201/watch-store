@@ -22,7 +22,7 @@ export const Navbar = () => {
 
   return (
     <NextUINavbar maxWidth="xl">
-      <NavbarBrand>
+      <NavbarBrand as={NextLink} href="/">
         <Logo />
         <p className="font-bold text-inherit">WatchStore</p>
       </NavbarBrand>
