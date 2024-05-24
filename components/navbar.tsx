@@ -24,7 +24,7 @@ export const Navbar = () => {
     <NextUINavbar maxWidth="xl">
       <NavbarBrand>
         <Logo />
-        <p className="font-bold text-inherit">ACME</p>
+        <p className="font-bold text-inherit">WatchStore</p>
       </NavbarBrand>
       <NavbarContent className="hidden gap-4 sm:flex" justify="center">
         <NavbarItem isActive={isActive('products')}>
@@ -37,14 +37,14 @@ export const Navbar = () => {
             Products
           </NextLink>
         </NavbarItem>
-        <NavbarItem isActive={isActive('entertaiment')}>
+        <NavbarItem isActive={isActive('entertainment')}>
           <NextLink
             className={linkStyles({
-              color: isActive('entertaiment') ? undefined : 'foreground',
+              color: isActive('entertainment') ? undefined : 'foreground',
             })}
-            href="/entertaiment"
+            href="/entertainment"
           >
-            Entertaiement
+            Entertainment
           </NextLink>
         </NavbarItem>
       </NavbarContent>
