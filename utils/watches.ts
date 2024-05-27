@@ -13,70 +13,70 @@ export const watches: Watch[] = [
     img: '/assets/watches/watch-1.png',
     price: '$5.50',
     description:
-      'A timeless design that exudes sophistication and style, perfect for any occasion.',
+      'Un diseño atemporal que exuda sofisticación y estilo, perfecto para cualquier ocasión.',
   },
   {
     id: 2,
     title: 'Modern Minimalist',
-    img: '/assets/watches/watch-1.png',
+    img: '/assets/watches/reloj-2.webp',
     price: '$5.50',
     description:
-      'Sleek and simple, this watch is the epitome of modern minimalism with clean lines and a streamlined look.',
+      'Elegante y simple, este reloj es el epítome del minimalismo moderno con líneas limpias y un aspecto aerodinámico.',
   },
   {
     id: 3,
     title: 'Vintage Charm',
-    img: '/assets/watches/watch-1.png',
+    img: '/assets/watches/reloj-3.webp',
     price: '$5.50',
     description:
-      'A nod to classic styles, this watch combines vintage charm with contemporary functionality.',
+      'Un guiño a los estilos clásicos, este reloj combina el encanto vintage con la funcionalidad contemporánea.',
   },
   {
     id: 4,
     title: 'Sleek Sophistication',
-    img: '/assets/watches/watch-1.png',
+    img: '/assets/watches/reloj-4.webp',
     price: '$5.50',
     description:
-      'Elegant and refined, this watch offers sleek sophistication for the discerning wearer.',
+      'Elegante y refinado, este reloj ofrece una sofisticación discreta para el usuario exigente.',
   },
   {
     id: 5,
     title: 'Urban Adventurer',
-    img: '/assets/watches/watch-1.png',
+    img: '/assets/watches/reloj-5.webp',
     price: '$5.50',
     description:
-      'Designed for the modern explorer, this watch combines durability with a stylish urban aesthetic.',
+      'Diseñado para el explorador moderno, este reloj combina durabilidad con una estética urbana y elegante.',
   },
   {
     id: 6,
     title: 'Timeless Classic',
-    img: '/assets/watches/watch-1.png',
+    img: '/assets/watches/reloj-6.webp',
     price: '$5.50',
     description:
-      'A true classic, this watch features timeless design elements that never go out of style.',
+      'Un verdadero clásico, este reloj presenta elementos de diseño atemporales que nunca pasan de moda.',
   },
   {
     id: 7,
     title: 'Luxury Heritage',
-    img: '/assets/watches/watch-1.png',
+    img: '/assets/watches/reloj-7.webp',
     price: '$5.50',
     description:
-      'Crafted with luxury in mind, this watch showcases heritage design with premium materials.',
+      'Diseñado con lujo en mente, este reloj muestra un diseño patrimonial con materiales de primera calidad.',
   },
   {
     id: 8,
     title: 'Sporty Chic',
-    img: '/assets/watches/watch-1.png',
+    img: '/assets/watches/reloj-8.webp',
     price: '$5.50',
     description:
-      'Combining sporty functionality with chic style, this watch is perfect for active lifestyles.',
+      'Combinando funcionalidad deportiva con estilo chic, este reloj es perfecto para estilos de vida activos.',
   },
   {
     id: 9,
     title: 'Elegant Simplicity',
-    img: '/assets/watches/watch-1.png',
+    img: '/assets/watches/reloj-9.webp',
     price: '$5.50',
     description:
-      'Understated elegance at its best, this watch features a simple yet refined design.',
+      'La elegancia discreta en su máxima expresión, este reloj presenta un diseño simple pero refinado.',
   },
 ]

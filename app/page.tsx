@@ -17,9 +17,8 @@ export default function Home() {
           <div>
             <h1 className={title()}>A watch for every moment</h1>
             <h2 className={subtitle({ class: 'mt-1 mb-0' })}>
-              Everyone has to keep track of time, but with us you can do it{' '}
-              <br />
-              in style.
+              Todo el mundo tiene que controlar el tiempo, pero con nosotros
+              puedes hacerlo con estilo.
             </h2>
           </div>
           <div className="flex gap-2">
@@ -47,12 +46,12 @@ export default function Home() {
       <section className="flex flex-col items-center content-center py-10 md:py-10">
         <div id="most-popular">
           <h3 className={title({ size: 'xs', class: 'text-center m-0' })}>
-            Most popular watches
+            Relojes populares
           </h3>
           <h4
             className={subtitle({ class: 'text-center m-0 mt-2', size: 'sm' })}
           >
-            Choose one
+            Elige uno
           </h4>
         </div>
         <div className="flex items-center justify-center w-full gap-2 mt-4">
@@ -69,7 +68,7 @@ export default function Home() {
       </section>
       <section className="flex flex-col items-center justify-center h-screen gap-4">
         <h2 className={title({ size: 'xs', class: 'text-center m-0' })}>
-          Watch the video
+          Mira el video
         </h2>
         <div className="w-[500] h-[500] rounded-lg overflow-hidden align-middle">
           <video autoPlay controls muted height={500} width={500}>

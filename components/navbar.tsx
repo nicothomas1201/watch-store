@@ -37,6 +37,16 @@ export const Navbar = () => {
             Products
           </NextLink>
         </NavbarItem>
+        <NavbarItem isActive={isActive('about')}>
+          <NextLink
+            className={linkStyles({
+              color: isActive('about') ? undefined : 'foreground',
+            })}
+            href="/about"
+          >
+            About
+          </NextLink>
+        </NavbarItem>
         <NavbarItem isActive={isActive('entertainment')}>
           <NextLink
             className={linkStyles({
