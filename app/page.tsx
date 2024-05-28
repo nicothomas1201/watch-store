@@ -76,7 +76,7 @@ export default function Home() {
             <track kind="captions" label="spanish_captions" src="#" />
           </video>
         </div>
-        <Button color="primary" radius="full">
+        <Button as={Link} color="primary" href="/products" radius="full">
           Buy now
         </Button>
       </section>

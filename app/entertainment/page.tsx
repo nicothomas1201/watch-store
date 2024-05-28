@@ -6,7 +6,7 @@ import { title } from '@/components/primitives'
 
 export default function EntertainmentPage() {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center h-[68vh]">
       <h1 className={title({ size: 'xs' })}>Games</h1>
       <div className="flex gap-2 mt-5">
         <Card

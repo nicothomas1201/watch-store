@@ -7,7 +7,6 @@ import {
   NavbarItem,
 } from '@nextui-org/navbar'
 import { Button } from '@nextui-org/button'
-import { Link } from '@nextui-org/link'
 import NextLink from 'next/link'
 import { link as linkStyles } from '@nextui-org/theme'
 import { usePathname } from 'next/navigation'
@@ -60,8 +59,13 @@ export const Navbar = () => {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="solid">
-            Sign Up
+          <Button
+            as={NextLink}
+            color="primary"
+            href="/products"
+            variant="solid"
+          >
+            Buy now
           </Button>
         </NavbarItem>
       </NavbarContent>
